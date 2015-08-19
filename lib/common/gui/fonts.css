@@ -1,0 +1,143 @@
+@font-face {
+    font-family: abyssal;
+    src: url(/assets/fonts/abyssal.ttf);
+}
+.abyssal{
+	font-family:abyssal;
+}
+@font-face {
+    font-family: aklo;
+    src: url(/assets/fonts/aklo.ttf);
+}
+.aklo{
+	font-family:aklo;
+}
+@font-face {
+    font-family: aquan;
+    src: url(/assets/fonts/aquan.ttf);
+}
+.aquan{
+	font-family:aquan;
+}
+@font-face {
+    font-family: auran;
+    src: url(/assets/fonts/auran.ttf);
+}
+.auran{
+	font-family:auran;
+}
+@font-face {
+    font-family: celestial;
+    src: url(/assets/fonts/celestial.ttf);
+}
+.celestial{
+	font-family:celestial;
+	font-size:24px;
+	text-transform: lowercase;
+}
+@font-face {
+    font-family: draconic;
+    src: url(/assets/fonts/draconic.ttf);
+}
+.draconic{
+	font-family:draconic;
+	font-size:24px;
+}
+@font-face {
+    font-family: druidic;
+    src: url(/assets/fonts/druidic.ttf);
+}
+.druidic{
+	font-family:druidic;
+}
+@font-face {
+    font-family: dwarven;
+    src: url(/assets/fonts/dwarven.ttf);
+}
+.dwarven{
+	font-family:dwarven;
+	font-size:24px;
+	text-transform: lowercase;
+}
+@font-face {
+    font-family: elven;
+    src: url(/assets/fonts/elven.ttf);
+}
+.elven{
+	font-family:elven;
+}
+@font-face {
+    font-family: giant;
+    src: url(/assets/fonts/giant.ttf);
+}
+.giant{
+	font-family:giant;
+}
+@font-face {
+    font-family: gnome;
+    src: url(/assets/fonts/gnome.ttf);
+}
+.gnome{
+	font-family:gnome;
+	text-transform: lowercase;
+}
+@font-face {
+    font-family: goblin;
+    src: url(/assets/fonts/goblin.ttf);
+}
+.goblin{
+	font-family:goblin;
+}
+@font-face {
+    font-family: halfling;
+    src: url(/assets/fonts/halfling.ttf);
+}
+.halfling{
+	font-family:halfling;
+}
+@font-face {
+    font-family: ignan;
+    src: url(/assets/fonts/ignan.ttf);
+}
+.ignan{
+	font-family:ignan;
+	font-size:24px;
+}
+@font-face {
+    font-family: infernal;
+    src: url(/assets/fonts/infernal.ttf);
+}
+.infernal{
+	font-family:infernal;
+}
+@font-face {
+    font-family: orc;
+    src: url(/assets/fonts/orc.ttf);
+}
+.orc{
+	font-family:orc;
+}
+@font-face {
+    font-family: sylvan;
+    src: url(/assets/fonts/sylvan.ttf);
+}
+.sylvan{
+	font-family:sylvan;
+}
+@font-face {
+    font-family: terran;
+    src: url(/assets/fonts/terran.ttf);
+}
+.terran{
+	font-family:terran;
+}
+@font-face {
+    font-family: undercommon;
+    src: url(/assets/fonts/undercommon.ttf);
+}
+.undercommon{
+	font-family:undercommon;
+	font-size:42px;
+}
+
+
