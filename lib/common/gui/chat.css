@@ -1,0 +1,21 @@
+#div_chat_menu{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:400px;
+	height:100%;
+	background-color:#fcc;
+}
+#lst_messages{
+	position: absolute;
+	width:100%;
+	top:0px;
+	bottom:100px;
+	background-color:#ffc;
+	overflow-y: auto;
+}
+#frm_chat{
+	position: absolute;
+	height:90px;
+	bottom:0px;
+}
