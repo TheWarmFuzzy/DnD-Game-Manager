@@ -32,7 +32,6 @@
 }
 .celestial{
 	font-family:celestial;
-	font-size:24px;
 	text-transform: lowercase;
 }
 @font-face {
@@ -41,7 +40,7 @@
 }
 .draconic{
 	font-family:draconic;
-	font-size:24px;
+	line-height: 75%;
 }
 @font-face {
     font-family: druidic;
@@ -56,8 +55,8 @@
 }
 .dwarven{
 	font-family:dwarven;
-	font-size:24px;
 	text-transform: lowercase;
+	line-height: 80%;
 }
 @font-face {
     font-family: elven;
@@ -101,7 +100,6 @@
 }
 .ignan{
 	font-family:ignan;
-	font-size:24px;
 }
 @font-face {
     font-family: infernal;
@@ -137,7 +135,27 @@
 }
 .undercommon{
 	font-family:undercommon;
-	font-size:42px;
+	line-height: 40%;
 }
 
-
+.normal.giant{
+	font-size:10px;
+}
+.normal.auran, .normal.gnome, .normal.goblin, .normal.halfling, .normal.sylvan, .normal.terran{
+	font-size:12px;
+}
+.normal.elven{
+	font-size:14px;
+}
+.normal.orc{
+	font-size:16px;
+}
+.normal.abyssal, .normal.aklo, .normal.aquan, .normal.druidic, .normal.infernal{
+	font-size:20px;
+}
+.normal.celestial, .normal.draconic, .normal.dwarven, .normal.ignan{
+	font-size:24px;
+}
+.normal.undercommon{
+	font-size:42px;
+}

@@ -2,6 +2,7 @@ const PORT = 80;
 
 var express = require('express');
 var http = require('http');
+var crypto = require('crypto');
 var lang = require('./lib/server/chat/lang.js');
 var app = express();
 var server = app.listen(PORT,server_startup);
@@ -19,8 +20,7 @@ app.get("/", function(request, response){
 function server_startup(){
 	var host = server.address().address;
 	var port_num = server.address().port;
-	console.log("Server at " + "localhost" + ":" +  port_num);
-	lang.test();
+	console.log("Server at " + "localhost" + ":" +  port_num);	
 };
 
 
@@ -32,6 +32,6 @@ io.on('connection', function(socket){
 	});
 	socket.on('dnd_message', function(msg){
 	console.log('Message: ' + msg["message"] + " Language: " + msg["lang"]);
-		io.emit('dnd_message',{"message":msg["message"], "lang":msg["lang"]});
+		io.emit('dnd_message',{"message":lang.translate(msg["message"]), "lang":msg["lang"]});
 	});
 });
