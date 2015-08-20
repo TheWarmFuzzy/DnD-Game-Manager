@@ -71,6 +71,7 @@
 }
 .giant{
 	font-family:giant;
+	line-height: 120%;
 }
 @font-face {
     font-family: gnome;
@@ -150,7 +151,11 @@
 .normal.orc{
 	font-size:16px;
 }
-.normal.abyssal, .normal.aklo, .normal.aquan, .normal.druidic, .normal.infernal{
+
+.normal.druidic{
+	font-size:18px;
+}
+.normal.abyssal, .normal.aklo, .normal.aquan, .normal.infernal{
 	font-size:20px;
 }
 .normal.celestial, .normal.draconic, .normal.dwarven, .normal.ignan{

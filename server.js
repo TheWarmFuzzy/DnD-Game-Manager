@@ -31,7 +31,12 @@ io.on('connection', function(socket){
 		console.log('user disconnected');
 	});
 	socket.on('dnd_message', function(msg){
-	console.log('Message: ' + msg["message"] + " Language: " + msg["lang"]);
-		io.emit('dnd_message',{"message":lang.translate(msg["message"]), "lang":msg["lang"]});
+		console.log('Message: ' + msg["message"] + " Language: " + msg["language"]);
+		
+		var message = lang.translate(msg["message"]);
+		var language = msg["language"];
+		var time = (new Date()).toLocaleTimeString();
+		
+		io.emit('dnd_message',{"message":message, "language":language, "time":time});
 	});
 });

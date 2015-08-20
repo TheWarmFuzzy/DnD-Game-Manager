@@ -1,10 +1,13 @@
 #div_chat_menu{
 	position:fixed;
+	height:100%;
 	top:0px;
-	left:0px;
+	right:0px;
+	background-color:#fcc;
+}
+#div_chat_box{
 	width:400px;
 	height:100%;
-	background-color:#fcc;
 }
 #lst_messages{
 	position: absolute;
@@ -19,3 +22,39 @@
 	height:90px;
 	bottom:0px;
 }
+
+#spn_time{
+	width:80px;
+	float:right;
+}
+#spn_username{
+	
+	position: absolute;
+	width:100px;
+	top:0px;
+	left:0px;
+	text-align: right;
+	padding:8px 10px 0px 0px;
+}
+
+#spn_messages{
+	display:block;
+	margin:0px 0px 0px 110px;
+	max-width:180px;
+	width:180px;
+	word-wrap: break-word;
+	padding:0px;
+}
+
+#spn_time{
+	position: absolute;
+	width:80px;
+	top:0px;
+	right:0px;
+	padding-top:8px;
+}
+.li_message{
+	position:relative;
+	padding-top:8px;
+}
+

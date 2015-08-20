@@ -17,6 +17,7 @@
   <body>
 	<script src="/socket.io/socket.io.js"></script>
 	<script src="/lib/external/jquery-1.11.3.min.js"></script>
+	<script src="/lib/external/jquery-ui.min.js"></script>
 	<script src="/lib/common/chat/SpeechEngine.js"></script>
 	<script type="text/javascript">
 	
@@ -30,32 +31,36 @@
 		});
 	</script>
 	<div id="div_chat_menu">
-		<ul id="lst_messages"></ul>
-		<form id="frm_chat" action="">
-			<select id="slc_lang">
-				<option value="common">Common</option>
-				<option value="abyssal">Abyssal</option>
-				<option value="aklo">Aklo</option>
-				<option value="aquan">Aquan</option>
-				<option value="auran">Auran</option>
-				<option value="celestial">Celestial</option>
-				<option value="draconic">Draconic</option>
-				<option value="druidic">Druidic</option>
-				<option value="dwarven">Dwarven</option>
-				<option value="elven">Elven</option>
-				<option value="giant">Giant</option>
-				<option value="gnome">Gnome</option>
-				<option value="goblin">Goblin</option>
-				<option value="halfling">Halfling</option>
-				<option value="ignan">Ignan</option>
-				<option value="infernal">Infernal</option>
-				<option value="orc">Orc</option>
-				<option value="sylvan">Sylvan</option>
-				<option value="terran">Terran</option>
-				<option value="undercommon">Undercommon</option>
-			</select>
-			<input id="ipt_message_box" autocomplete="off" /><button>Send</button>
-		</form>
+		<div id="div_chat_sh">
+		</div>
+		<div id="div_chat_box">
+			<ul id="lst_messages"></ul>
+			<form id="frm_chat" action="">
+				<select id="slc_lang">
+					<option value="common">Common</option>
+					<option value="abyssal">Abyssal</option>
+					<option value="aklo">Aklo</option>
+					<option value="aquan">Aquan</option>
+					<option value="auran">Auran</option>
+					<option value="celestial">Celestial</option>
+					<option value="draconic">Draconic</option>
+					<option value="druidic">Druidic</option>
+					<option value="dwarven">Dwarven</option>
+					<option value="elven">Elven</option>
+					<option value="giant">Giant</option>
+					<option value="gnome">Gnome</option>
+					<option value="goblin">Goblin</option>
+					<option value="halfling">Halfling</option>
+					<option value="ignan">Ignan</option>
+					<option value="infernal">Infernal</option>
+					<option value="orc">Orc</option>
+					<option value="sylvan">Sylvan</option>
+					<option value="terran">Terran</option>
+					<option value="undercommon">Undercommon</option>
+				</select>
+				<input id="ipt_message_box" autocomplete="off" /><button>Send</button>
+			</form>
+		</div>
 	</div>
 	
 	
