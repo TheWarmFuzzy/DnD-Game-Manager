@@ -3,18 +3,23 @@
 	height:100%;
 	top:0px;
 	right:0px;
-	background-color:#fcc;
+	border-left:solid;
+	border-width:1px;
+	border-color:#aaa;
+	-webkit-box-shadow: -4px 0px 10px -5px rgba(0,0,0,0.50);
+	-moz-box-shadow: -4px 0px 10px -5px rgba(0,0,0,0.50);
+	box-shadow: -4px 0px 10px -5px rgba(0,0,0,0.50);
 }
 #div_chat_box{
 	width:400px;
 	height:100%;
+	
 }
 #lst_messages{
 	position: absolute;
 	width:100%;
 	top:0px;
 	bottom:100px;
-	background-color:#ffc;
 	overflow-y: auto;
 }
 #frm_chat{
@@ -28,33 +33,56 @@
 	float:right;
 }
 #spn_username{
-	
-	position: absolute;
-	width:100px;
-	top:0px;
-	left:0px;
-	text-align: right;
-	padding:8px 10px 0px 0px;
+	display:block;
+	width:288px;
+	max-width:288px;
+	text-align: left;
+	margin:5px 0px 5px 16px;
+	color:#999;
 }
 
 #spn_messages{
-	display:block;
-	margin:0px 0px 0px 110px;
-	max-width:180px;
-	width:180px;
+	display:inline-block;
+	margin:5px 0px 0px 16px;
+	padding:12px;
+	width:288px;
+	max-width:288px;
 	word-wrap: break-word;
-	padding:0px;
+	border-radius: 10px;
 }
 
 #spn_time{
-	position: absolute;
-	width:80px;
-	top:0px;
-	right:0px;
+	display:inline-block;
 	padding-top:8px;
+	width:80px;
+	color:#999;
 }
 .li_message{
 	position:relative;
 	padding-top:8px;
 }
 
+/*Blue*/
+#spn_messages.aquan, #spn_messages.common{
+	background-color:#def;
+}
+
+/*Brown*/
+#spn_messages.dwarven, #spn_messages.giant, #spn_messages.goblin, #spn_messages.gnoll, #spn_messages.terran, #spn_messages.undercommon{
+	background-color:#fed;
+}
+
+/*Green*/
+#spn_messages.aklo, #spn_messages.druidic, #spn_messages.gnome, #spn_messages.halfling, #spn_messages.orc, #spn_messages.sylvan{
+	background-color:#dfd;
+}
+
+/*Red*/
+#spn_messages.abyssal, #spn_messages.draconic, #spn_messages.ignan, #spn_messages.infernal{
+	background-color:#fdd;
+}
+
+/*Yellow*/
+#spn_messages.auran, #spn_messages.celestial, #spn_messages.elven{
+	background-color:#ffd;
+}
